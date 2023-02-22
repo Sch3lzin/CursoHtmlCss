@@ -3,8 +3,8 @@ body {
     background-color: #ddd;
 }
 form {
-    width: 200px;
-    height: 150px;
+    width: 205px;
+    height: 165px;
     margin: auto;
     margin-top: 20px;
     padding-left: 20px;
@@ -15,6 +15,7 @@ form {
 input {
     border-radius: 5px;
     border: 1px solid rgba(196, 190, 190, 0.925);
+    padding: 5px;
 }
 .submit:hover {
     background-color: #aaa;
