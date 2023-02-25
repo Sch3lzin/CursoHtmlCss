@@ -1,9 +1,24 @@
+@keyframes test {
+    0% {background-color: #f00;top: 0px;left: 0px;}
+    25% {background-color: yellow;top: 0px;left: 200px;}
+    50% {background-color: #00f;top: 200px;left: 200px;}
+    75% {background-color: #0f0;top: 200px;left: 0px;}
+    100% {background-color: #f00;top: 0px;left: 0px;}
+}
+
 body {
     margin: 0;
 }
 .test {
-    width: 500px;
-    height: 200px;
-    background-color: blue;
-    background: linear-gradient(90deg, white,blue);
+    width: 150px;
+    height: 150px;
+    background-color: #f00;
+    position: absolute;
+    animation-name: test;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 75px;
 }
