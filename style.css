@@ -3,22 +3,8 @@ body {
 }
 .test {
     width: 150px;
-    height: 150px;
-    background-color: #0f0;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    transition: all 250ms linear;
-}
-.test:hover {
-    width: 300px;
-    background-color: red;
-}
-.test2 {
-    color: #000;
-    margin: 700px;
-    transition: all 500ms linear;
-}
-.test2:hover {
-    color: red;
+    height: 200px;
+    border: 2px solid #000;
+    margin: 1px;
+    word-wrap: break-word;
 }
