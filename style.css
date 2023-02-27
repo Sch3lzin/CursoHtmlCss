@@ -1,27 +1,14 @@
 body {
     margin: 0;
 }
-header {
-    min-height: 100px;
-    background-color: #555;
+figure {
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #ccc;
 }
-.container {
-    display: flex;
-    min-height: 700px;
-}
-aside {
-    width: 230px;
-    background-color: #999;
-}
-main {
-    flex: 1;
-    background-color: #bbb;
-}
-footer {
-    min-height: 100px;
-    background-color: #555;
-}
-address {
+figcaption {
+    background-color: #000;
     color: #fff;
-    font-style: normal;
+    text-align: center;
+    padding: 2px;
 }
