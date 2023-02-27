@@ -1,7 +1,23 @@
 body {
     margin: 0;
 }
-q {
-    color: #555;
-    font-style: italic;
+header {
+    min-height: 150px;
+    background-color: #555;
+}
+.container {
+    display: flex;
+    min-height: 600px;
+}
+aside {
+    width: 200px;
+    background-color: #999;
+}
+main {
+    flex: 1;
+    background-color: #bbb;
+}
+footer {
+    min-height: 150px;
+    background-color: #555;
 }
